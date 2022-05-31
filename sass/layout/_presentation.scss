@@ -1,9 +1,9 @@
 .presentation{
     width: 100%;
-    
+    height: auto!important;
     background: linear-gradient(257.56deg, #83CAF2 22.53%, #82D6F0 69.82%);
     padding-bottom: 2.6rem;
-    padding-top: 10rem;
+    // padding-top: 10rem;
     &__container{
         padding-left: 2.5rem;
     }
@@ -93,6 +93,7 @@
         &__row{
             display: flex;
             flex-direction: column-reverse;
+            
         }
         &__img{
           margin: auto;

@@ -152,6 +152,17 @@ html,body{
     display: block!important;
 }
 
+.section{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+
+}
+.fp-tableCell{
+    display: flex!important;
+    align-items: center!important;
+    justify-content: center!important;
+}
 
 
 @media screen and (max-width:1024px) {
@@ -163,6 +174,7 @@ html,body{
     html,body{
         font-size: 1.497005988023592vw;
     }
+    
 }
 @media screen and (max-width:668px) {
 

@@ -130,10 +130,10 @@ $(document).ready(function(){
         fitToSectionDelay: 500,
         touchSensitivity: 15,
         //Дизайн
-        paddingTop:'100px',
+        paddingTop:'0',
         scrollHorizontally: true,
         normalScrollElements: '.modal_block',
-        paddingBottom:'100px',
+        paddingBottom:'0',
         controlArrows: false,
         verticalCentered: true,
         responsiveWidth: 0,
@@ -239,7 +239,7 @@ $(document).ready(function(){
             fitToSection:false,
             autoScrolling:false,
             //Дизайн
-            paddingTop:'0px',
+            // paddingTop:'0px',
             scrollHorizontally: true,
             normalScrollElements: '.modal_block',
             paddingBottom:'0px',

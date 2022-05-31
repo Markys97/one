@@ -49,6 +49,10 @@
 
     &__btn-last{
         margin-bottom: 3rem;
+        position: fixed;
+        z-index: 100;
+        top:90vh;
+        left: 4rem;
     }
 
     @media screen and (max-width:1024px) {
@@ -93,6 +97,13 @@
                 
 
             }
+        }
+        &__btn-last{
+            margin-bottom: 3rem;
+            position: fixed;
+            z-index: 100;
+            top:90vh;
+            left:0rem;
         }
     }
 

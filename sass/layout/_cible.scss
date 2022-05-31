@@ -1,6 +1,7 @@
 .cible{
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 3rem!important;
+
 
     &__container{
         min-height: 53.9rem;
@@ -22,6 +23,7 @@
         justify-content: center;
         gap: 8rem;
         margin:0  auto 3.2rem;
+        // border:1px solid red;
 
     }
     &__item{
