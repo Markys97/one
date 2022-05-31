@@ -1,0 +1,198 @@
+._container{
+  
+  padding: 1.6rem 4rem 0;
+}
+
+._wrapper{
+    overflow: hidden;
+}
+
+html,body{
+    font-size: 0.9765625vw;
+}
+
+._burger{
+    width: 33px;
+    height: 19px;
+    cursor: pointer;
+    &:hover{
+        &__row{
+            &--small{
+                width: 100%;
+            }
+            
+        }
+    }
+    &__row{
+        display: block;
+        width: 100%;
+        height: 4.55px;
+        background: #FFFFFF;
+        border-radius: 0.4rem;
+        &--small{
+            width:25px;
+        }
+        &--blue{
+                background:  #53CBF9;
+        }
+    }
+    &__row:not(:last-child){
+        margin-bottom: 2.28px;
+    }
+   
+}
+
+.last-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 13.5rem;
+    min-height: 2.5rem;
+    background: #FFFFFF;
+    border: 0.2rem solid #FFFFFF;
+    border-radius: 0.5rem;
+    &--blue{
+        background: #53CBF9;
+        span{
+            color: white;
+        }
+    }
+    &__img{
+        display: none;
+    }
+    &__text{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.1rem;
+        line-height: 1.3rem;
+
+        color: #8ADDEB;
+    }
+    img{
+        display: none;
+    }
+}
+
+.big-word{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 7rem;
+    line-height: 8.4rem;
+    text-align: center;
+    text-transform: uppercase;
+    opacity: 0.1;
+}
+.button{
+    width: 29.9rem;
+    height: 5.2rem;
+    left: 56.0rem;
+    top: 29.2rem;
+    background: #FFFFFF;
+    border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.7rem;
+    line-height: 2rem;
+    cursor: pointer;
+    color: #158CD0;
+    transition: all 300ms ease-in;
+    &:active,&:hover{
+        color: #53CBF9;
+    }
+}
+
+.big-word{
+    font-family: 'Exo 2';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14.4018rem;
+    line-height: 17.3rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    opacity: 0.1;
+    @media screen and (max-width:1024px) {
+        font-size: 7rem;
+        line-height: 8.4rem;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        opacity: 0.1;
+    }
+}
+
+.button-bottom{
+    width: 13.5rem;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+   
+    &__text{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 1.1rem;
+        line-height: 1.3rem;        
+        color: #8ADDEB;
+    }
+    img{
+        display: none;
+    }
+}
+
+.open-menu{
+    display: block!important;
+}
+
+
+
+@media screen and (max-width:1024px) {
+    ._container{
+  
+        padding: 1.6rem 3.1rem 0;
+      }
+
+    html,body{
+        font-size: 1.497005988023592vw;
+    }
+}
+@media screen and (max-width:668px) {
+
+    .last-btn{
+        background: none!important;
+        border:none;
+        &__text{
+            display: none;
+
+        }
+        img{
+            display: block!important;
+            
+        }
+    }
+
+    .button-bottom{
+        background: none!important;
+        border:none;
+        &__text{
+          display: none;
+
+        }
+        img{
+            display: block;
+        }
+    }
+
+    html,body{
+        font-size: 10px;
+    }
+}
+

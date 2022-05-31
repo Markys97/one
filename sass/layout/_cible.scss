@@ -1,0 +1,143 @@
+.cible{
+    width: 100%;
+    padding-top: 2rem;
+
+    &__container{
+        min-height: 53.9rem;
+    }
+    &__title{
+        font-family: 'Exo 2.0';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 2.4rem;
+        line-height: 2.6rem;
+        
+        color: #6D6D6D;
+        text-align: center;
+        margin-bottom:3.7rem;
+    }
+    &__row{
+        max-width: 85rem;
+        display: flex;
+        justify-content: center;
+        gap: 8rem;
+        margin:0  auto 3.2rem;
+
+    }
+    &__item{
+        width: 23rem;
+        min-height: 33.5rem;
+    }
+    &__item:nth-child(1){
+        background: linear-gradient(257.56deg, #CD96EE 23.82%, #C9B0F2 71.11%);
+        h4{
+            margin-bottom: 5.8rem;
+        }
+       
+        
+    }
+    &__item:nth-child(2){
+        background: linear-gradient(256.95deg, #F6A0AF 8.56%, #FFBFD2 89.87%), linear-gradient(257.56deg, #CD96EE 22.53%, #C9B0F2 69.82%), #FFFFFF;
+       
+        padding: 1.6rem 1.7rem;
+       
+    }
+    &__item:nth-child(3){
+        background: linear-gradient(257.56deg, #53CBF9 22.53%, #63D4FF 69.82%), linear-gradient(256.95deg, #F6A0AF 8.56%, #FFBFD2 89.87%), linear-gradient(257.56deg, #CD96EE 22.53%, #C9B0F2 69.82%);
+        opacity: 0.75;
+       
+       
+    }
+    &__big-word{
+        color: #53CBF9;
+        display: none;
+    }
+
+    @media screen and (max-width:1024px) {
+        &__row-container{
+            
+                overflow-x: auto;
+               scrollbar-width: none;
+               margin: 0 -3rem 0;
+               // touch-action: pan-x;
+               z-index: 1;
+               &::-webkit-scrollbar {
+                 width: 0;
+                 height: 0;
+                 background-color: transparent;
+               }
+
+             
+        }
+        &__row{
+            display: inline-flex;
+            width: auto;
+            max-width: none;
+            gap: 5.4rem;
+            padding: 0 3rem 0;
+          }
+        &__big-word{
+           
+            display: block;
+            margin-bottom: 4.6rem;
+        }
+    
+    }
+    @media screen and (max-width:668px) {
+        &__row{
+            margin-bottom: 5.6rem;
+        }
+       
+        
+    
+    }
+}
+
+
+
+
+
+
+.item-cible{
+    border-radius: 2.6rem;
+    position: relative;
+    
+    &__title{
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 2.2rem;
+        line-height: 2.6rem;
+        text-align: center;
+        color: #FFFFFF;
+        margin-top: 2.3rem;
+    }
+    &__text{
+        margin-bottom: 1rem;
+        font-family: 'Exo 2';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 1.3rem;
+        line-height: 1.5rem;
+        color: #FFFFFF;
+    }
+    &__img{
+        width: 16.355rem;
+        height: 19.70rem;
+        position: absolute;
+        right: 0;
+        display: flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        overflow: hidden;
+      
+        img{
+            max-width: none;
+            height: 100%;
+
+        
+            
+        }
+    }
+    
+}
